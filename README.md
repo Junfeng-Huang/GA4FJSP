@@ -4,7 +4,7 @@ I used GA to solve FJSP problem records
 ## FJSP分类
 FJSP分为两类，一类是T(Total)-FJSP，一类是P(Partial)-FJSP。<br>
 两者的区别是：T-FJSP每个工序在所有机器上都有加工时间，而P-FJSP的每个工序在部分机器上有加工时间。<br>
-T-FJSP是P-FJSP的一个特例。
+T-FJSP是P-FJSP的一个特例。P-FJSP可以通过将没有加工时间的部分设置为很大的数值进而转换为T-FJSP。
 
 ## GA实现交叉的几种方式：
 ### 一.
